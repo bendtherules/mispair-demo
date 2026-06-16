@@ -1,0 +1,27 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "mispair-live": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Mispair Live",
+      "options": {
+        "baseURL": "https://mispair.bendtherules.in/v1",
+        "apiKey": "dummy-key"
+      },
+      "models": {
+        "temperature-sensor-dashboard": { "name": "Temperature Sensor Dashboard" }
+      }
+    },
+    "mispair-live-pr": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Mispair PR (live)",
+      "options": {
+        "baseURL": "https://7.mispair.bendtherules.in/v1",
+        "apiKey": "dummy-key"
+      },
+      "models": {
+        "temperature-sensor-dashboard": { "name": "Temperature Sensor Dashboard" }
+      }
+    }
+  }
+}
