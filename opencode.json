@@ -20,7 +20,7 @@
         "apiKey": "dummy-key"
       },
       "models": {
-        "temperature-sensor-dashboard": { "name": "Temperature Sensor Dashboard" }
+        "temperature-sensor-dashboard": { "name": "Temperature Sensor Dashboard (PR)" }
       }
     }
   }
