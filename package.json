@@ -1,0 +1,11 @@
+{
+  "name": "mispair-demo",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "@hono/node-server": "^1.13.0"
+  }
+}
