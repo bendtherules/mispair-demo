@@ -7,12 +7,10 @@ export function createChartForZone(zoneId) {
     return d.toLocaleTimeString('en-US', { hour12: false });
   }
 
-  function maxValue() {
-    let m = 0;
-    for (const h of history) {
-      if (h.value > m) m = h.value;
-    }
-    return m || 100;
+  const MAX_TEMP = 200;
+
+  function barHeight(value) {
+    return Math.max(4, (value / MAX_TEMP) * 100);
   }
 
   function render() {
@@ -29,11 +27,9 @@ export function createChartForZone(zoneId) {
       </span>
     `;
 
-    const max = maxValue();
     let html = '';
     for (const h of history) {
-      const pct = Math.max(4, (h.value / max) * 100);
-      html += `<div class="bar-wrapper"><div class="bar" style="height:${pct}%"></div><span class="bar-label">${formatTime(h.time)}</span></div>`;
+      html += `<div class="bar-wrapper"><div class="bar" style="height:${barHeight(h.value)}%" title="${h.value}°C"></div><span class="bar-label">${formatTime(h.time)}</span></div>`;
     }
     chartEl.innerHTML = html;
   }
@@ -56,8 +52,7 @@ export function createChartForZone(zoneId) {
 
   return {
     element: card,
-    update(val) {
-      const value = typeof val === 'object' && val !== null ? val.value : val;
+    update(value) {
       history.push({ value, time: new Date() });
       if (history.length > MAX_HISTORY) history.shift();
       render();
