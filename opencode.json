@@ -23,5 +23,15 @@
         "temperature-sensor-dashboard": { "name": "Temperature Sensor Dashboard (PR)" }
       }
     }
+  },
+  "agent": {
+    "build": {
+      "mode": "primary",
+      "prompt": "./.opencode/prompt.txt"
+    },
+    "plan": {
+      "mode": "primary",
+      "prompt": "./.opencode/prompt.txt"
+    }
   }
 }
