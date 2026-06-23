@@ -27,11 +27,11 @@
   "agent": {
     "build": {
       "mode": "primary",
-      "prompt": "./.opencode/prompt.txt"
+      "prompt": "{file:./.opencode/prompt.txt}"
     },
     "plan": {
       "mode": "primary",
-      "prompt": "./.opencode/prompt.txt"
+      "prompt": "{file:./.opencode/prompt.txt}"
     }
   }
 }
