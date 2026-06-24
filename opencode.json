@@ -5,7 +5,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Mispair Live",
       "options": {
-        "baseURL": "https://mispair.bendtherules.in/v1",
+        "baseURL": "https://mispair2.bendtherules.in/v1",
         "apiKey": "dummy-key"
       },
       "models": {
@@ -16,7 +16,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Mispair PR (live)",
       "options": {
-        "baseURL": "https://7.mispair.bendtherules.in/v1",
+        "baseURL": "https://11.mispair2.bendtherules.in/v1",
         "apiKey": "dummy-key"
       },
       "models": {
