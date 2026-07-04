@@ -5,18 +5,29 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Mispair Live",
       "options": {
-        "baseURL": "https://mispair2.bendtherules.in/v1",
+        "baseURL": "https://mispair3.bendtherules.in/v1",
         "apiKey": "dummy-key"
       },
       "models": {
         "temperature-sensor-dashboard": { "name": "Temperature Sensor Dashboard" }
       }
     },
-    "mispair-live-pr": {
+    "mispair-live-pr-1": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "Mispair PR (live)",
+      "name": "Mispair PR 1",
       "options": {
         "baseURL": "https://11.mispair-hk1.bendtherules.in/v1",
+        "apiKey": "dummy-key"
+      },
+      "models": {
+        "temperature-sensor-dashboard": { "name": "Temperature Sensor Dashboard (PR)" }
+      }
+    },
+    "mispair-live-pr-2": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Mispair PR 2",
+      "options": {
+        "baseURL": "https://11.mispair3.bendtherules.in/v1",
         "apiKey": "dummy-key"
       },
       "models": {
