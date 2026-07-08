@@ -27,7 +27,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Mispair PR 2",
       "options": {
-        "baseURL": "https://11.mispair3.bendtherules.in/v1",
+        "baseURL": "https://15.mispair3.bendtherules.in/v1",
         "apiKey": "dummy-key"
       },
       "models": {
