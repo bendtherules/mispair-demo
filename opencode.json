@@ -31,7 +31,7 @@
         "apiKey": "dummy-key"
       },
       "models": {
-        "temperature-sensor-dashboard-2": { "name": "Temperature Sensor Dashboard (PR 2)" }
+        "temperature-sensor-dashboard": { "name": "Temperature Sensor Dashboard (PR 2)" }
       }
     },
     "mispair-live-pr-3": {
@@ -42,7 +42,7 @@
         "apiKey": "dummy-key"
       },
       "models": {
-        "temperature-sensor-dashboard-2": { "name": "Temperature Sensor Dashboard (PR Local)" }
+        "temperature-sensor-dashboard": { "name": "Temperature Sensor Dashboard (PR Local)" }
       }
     }
   },
